@@ -20,7 +20,7 @@ func main() {
 
 	r.HandleFunc("/ping", func(rw http.ResponseWriter, r *http.Request) {
 		pongs += 1
-		l.Printf("request recieved from %s using %s", r.RemoteAddr, r.Method)
+		l.Printf("request received from %s using %s", r.RemoteAddr, r.Method)
 		rw.Write([]byte("pong"))
 	})
 	r.HandleFunc("/pongs", func(rw http.ResponseWriter, r *http.Request) {
