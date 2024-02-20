@@ -17,3 +17,6 @@ spec:
       containers:
       - image: ghcr.io/s1ntaxe770r/pong:f68dcb69afdc70c852f5f44e55e43e7b5dbc1b3b
         name: pong
+        ports:
+        - containerPort: 8080
+
