@@ -11,3 +11,6 @@ Q: How do i run it
 A: `go build -o pong main.go && ./pong :8080`
 
 ![run](run.png)
+
+Heh!
+watch me replicate and do my version
