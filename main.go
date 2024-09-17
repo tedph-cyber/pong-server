@@ -9,13 +9,13 @@ import (
 )
 
 var (
-	port = flag.String("port", ":8080", "port the server would run on")
+	port= flag.String("port", ":8080", "port the server would run on")
 	pongs = 0
 )
 
-func main()  {
+func main() {
 	flag.Parse()
-	l := og.New(os.Stdout, "[PONG] ", log.LstdFlags)
+	l := log.New(os.Stdout, "[PONG] ", log.LstdFlags)
 	r := http.NewServeMux()
 
 	r.HandleFunc("/ping", func(rw http.ResponseWriter, r *http.Request) {
@@ -38,5 +38,5 @@ func main()  {
 	err := http.ListenAndServe(*port, r)
 	if err != nil {
 		l.Fatal(err)
-	}	
+	}
 }
