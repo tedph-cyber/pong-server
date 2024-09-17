@@ -29,10 +29,8 @@ T'was tedious in order of lower stress:
   - Building the docker image
   - Pushing to Github, due to my diverted branches, it stressed me more than building the image
   - Battling with the Github action, there was the inline version stuffs that were confusing me per the official docs. Tsk smh
-  - Ofc this seemingly easy README is the most tedious mostly because of my mindset... lol
+  - Ofc this seemingly easy README is the most tedious mostly because of my mindset... lol 🙂‍↔️
 But I survived it all Alhamdulilah
 
 OFficially done, I think...
-
-Oh, btw my own image is not showing I dont know why. Tsk 🙂‍↔️
 
